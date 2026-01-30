@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生登记报名表</title>
+    <style type="text/css">
+        .file-warp{
+            display: inline-block; 
+            width: auto;
+            overflow: hidden;
+        }
+        .anniu {
+           
+            text-align: center;
+        }
+        .reset-but:hover {
+            color: rgb(0, 157, 255);
+            cursor: pointer;
+        }
+        .submit-but:hover {
+            color: rgb(0, 255, 110);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://zhutix.com/" method="post">
+        
+        <table border="1" cellspacing="0" cellpadding="0" bgcolor="red" heig="500px" width="auto">
+            <tr>
+                <th colspan="5">学生登记报名表</th>
+
+            </tr>
+            <tr>
+                <td>用户名</dh>
+                <td align="center" colspan="5"><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>密码</td>
+                <td align="center" colspan="5"><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>密码确认</td>
+                <td align="center" colspan="5"><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>性别</td>
+
+                <td>
+                    <input type="radio" name="" value="">男
+                    <input type="radio" value="">女
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>选择科目 </td>
+                <td>
+                    <input type="checkbox" name="html" value="">html
+                    <input type="checkbox" name="html" value="">python
+                    <input type="checkbox" name="html" value="">linux
+                    <input type="checkbox" name="html" value="">mysql
+
+                </td>
+            </tr>
+            <tr>
+                <td> 选择学校</td>
+                <td>
+                    <select name="" id="">
+                        <option value=""selected disabled>-选择就读的学校-</option>
+                        <option value="">清华</option>
+                        <option value="">北大</option>
+                        <option value="">上海交通大学</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>选择文件</td>
+                <td>
+                    <div class="file-warp">
+                    <input type="file">
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="anniu"  colspan="5">
+                    <input class="reset-but" type="reset" name="" id="" value="重置">
+                    <input class="submit-but" type="submit" name="" id="" value="提交">
+                </td>
+
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
